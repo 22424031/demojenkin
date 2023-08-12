@@ -1,0 +1,13 @@
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\bin\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.deps.json
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\bin\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.dll
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\bin\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.pdb
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\bin\Debug\netstandard2.0\acme.Bookstore.Domain.Shared.dll
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\bin\Debug\netstandard2.0\acme.Bookstore.Domain.Shared.pdb
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.csproj.AssemblyReference.cache
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.AssemblyInfoInputs.cache
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.AssemblyInfo.cs
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.csproj.CoreCompileInputs.cache
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.csproj.CopyComplete
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.dll
+D:\source code ASP.NEt\src\acme.Bookstore.Application.Contracts\obj\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.pdb

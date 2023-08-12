@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Volo.Abp.Domain.Repositories;
+
+namespace acme.Bookstore.Authors
+{
+    public interface IAuthorRepository : IRepository<Author, Guid>
+    {
+        Task<Author> FindByNameAsync(string name);
+        Task<List<Author>> GetListAsync(int skipCount, int totalCount, string sorting, string filter);
+
+    }
+}

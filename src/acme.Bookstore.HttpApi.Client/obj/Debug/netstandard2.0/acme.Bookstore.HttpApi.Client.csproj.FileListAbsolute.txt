@@ -1,0 +1,15 @@
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.deps.json
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.dll
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.pdb
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.dll
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.Domain.Shared.dll
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.Application.Contracts.pdb
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\bin\Debug\netstandard2.0\acme.Bookstore.Domain.Shared.pdb
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.csproj.AssemblyReference.cache
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.AssemblyInfoInputs.cache
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.AssemblyInfo.cs
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.csproj.CoreCompileInputs.cache
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.csproj.CopyComplete
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.dll
+D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\obj\Debug\netstandard2.0\acme.Bookstore.HttpApi.Client.pdb

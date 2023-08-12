@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = acme.Bookstore
+build_property.ProjectDir = D:\source code ASP.NEt\src\acme.Bookstore.HttpApi.Client\

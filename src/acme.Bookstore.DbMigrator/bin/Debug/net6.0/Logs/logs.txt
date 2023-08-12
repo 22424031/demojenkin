@@ -1,0 +1,275 @@
+2022-06-10 10:25:58.213 -07:00 [INF] Creating initial migration...
+2022-10-09 20:27:46.041 +07:00 [INF] Started database migrations...
+2022-10-09 20:27:46.065 +07:00 [INF] Migrating schema for host database...
+2022-10-09 20:28:02.399 +07:00 [INF] Executing host database seed...
+2022-10-09 20:28:10.078 +07:00 [INF] Successfully completed host database migrations.
+2022-10-09 20:28:11.064 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-09 20:28:12.089 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-09 20:28:12.090 +07:00 [INF] Successfully completed all database migrations.
+2022-10-09 20:28:12.090 +07:00 [INF] You can safely end this process...
+2022-10-09 21:43:08.764 +07:00 [INF] Started database migrations...
+2022-10-09 21:43:08.814 +07:00 [INF] Migrating schema for host database...
+2022-10-09 21:43:13.127 +07:00 [INF] Executing host database seed...
+2022-10-09 21:43:19.886 +07:00 [INF] Successfully completed host database migrations.
+2022-10-09 21:43:20.592 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-09 21:43:21.547 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-09 21:43:21.547 +07:00 [INF] Successfully completed all database migrations.
+2022-10-09 21:43:21.547 +07:00 [INF] You can safely end this process...
+2022-10-09 22:30:15.591 +07:00 [INF] Started database migrations...
+2022-10-09 22:30:15.612 +07:00 [INF] Migrating schema for host database...
+2022-10-09 22:30:25.109 +07:00 [INF] Executing host database seed...
+2022-10-09 22:30:53.728 +07:00 [INF] Started database migrations...
+2022-10-09 22:30:53.749 +07:00 [INF] Migrating schema for host database...
+2022-10-09 22:30:56.522 +07:00 [INF] Executing host database seed...
+2022-10-09 22:31:04.312 +07:00 [INF] Successfully completed host database migrations.
+2022-10-09 22:31:05.254 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-09 22:31:06.184 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-09 22:31:06.184 +07:00 [INF] Successfully completed all database migrations.
+2022-10-09 22:31:06.184 +07:00 [INF] You can safely end this process...
+2022-10-09 22:33:39.430 +07:00 [INF] Started database migrations...
+2022-10-09 22:33:39.453 +07:00 [INF] Migrating schema for host database...
+2022-10-09 22:33:43.025 +07:00 [INF] Executing host database seed...
+2022-10-09 22:34:11.827 +07:00 [INF] Started database migrations...
+2022-10-09 22:34:11.871 +07:00 [INF] Migrating schema for host database...
+2022-10-09 22:34:16.319 +07:00 [INF] Executing host database seed...
+2022-10-09 22:34:25.051 +07:00 [INF] Successfully completed host database migrations.
+2022-10-09 22:34:25.731 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-09 22:34:26.779 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-09 22:34:26.779 +07:00 [INF] Successfully completed all database migrations.
+2022-10-09 22:34:26.779 +07:00 [INF] You can safely end this process...
+2022-10-20 22:06:06.369 +07:00 [INF] Started database migrations...
+2022-10-20 22:06:06.391 +07:00 [INF] Migrating schema for host database...
+2022-10-20 22:06:10.578 +07:00 [INF] Executing host database seed...
+2022-10-20 22:06:20.985 +07:00 [INF] Successfully completed host database migrations.
+2022-10-20 22:06:21.732 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-20 22:06:22.772 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-20 22:06:22.772 +07:00 [INF] Successfully completed all database migrations.
+2022-10-20 22:06:22.772 +07:00 [INF] You can safely end this process...
+2022-10-20 22:36:39.354 +07:00 [INF] Started database migrations...
+2022-10-20 22:36:39.376 +07:00 [INF] Migrating schema for host database...
+2022-10-20 22:36:42.762 +07:00 [INF] Executing host database seed...
+2022-10-20 22:37:03.919 +07:00 [INF] Successfully completed host database migrations.
+2022-10-20 22:37:04.373 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-20 22:37:07.754 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'acme.Bookstore.EntityFrameworkCore.BookstoreDbContext'.
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.DateTime'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+System.InvalidCastException: Unable to cast object of type 'System.String' to type 'System.DateTime'.
+   at Microsoft.Data.SqlClient.SqlBuffer.get_DateTime()
+   at Microsoft.Data.SqlClient.SqlDataReader.GetDateTime(Int32 i)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadDateTime(DbDataReader reader, Int32 ordinal, ReaderColumn column)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.ReadRow()
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.BufferedDataRecord.InitializeAsync(DbDataReader reader, IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.BufferedDataReader.InitializeAsync(IReadOnlyList`1 columns, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at acme.Bookstore.EntityFrameworkCore.EfCoreAuthorRepository.FindByNameAsync(String name) in D:\source code ASP.NEt\src\acme.Bookstore.EntityFrameworkCore\EntityFrameworkCore\EfCoreAuthorRepository.cs:line 22
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+2022-10-20 22:41:52.676 +07:00 [INF] Started database migrations...
+2022-10-20 22:41:52.700 +07:00 [INF] Migrating schema for host database...
+2022-10-22 15:38:02.711 +07:00 [INF] Started database migrations...
+2022-10-22 15:38:02.728 +07:00 [INF] Migrating schema for host database...
+2022-10-22 15:38:06.583 +07:00 [INF] Executing host database seed...
+2022-10-22 15:38:12.616 +07:00 [INF] Successfully completed host database migrations.
+2022-10-22 15:38:13.231 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-22 15:38:13.989 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-22 15:38:13.989 +07:00 [INF] Successfully completed all database migrations.
+2022-10-22 15:38:13.989 +07:00 [INF] You can safely end this process...
+2022-10-22 17:57:49.442 +07:00 [INF] Started database migrations...
+2022-10-22 17:57:49.455 +07:00 [INF] Migrating schema for host database...
+2022-10-22 17:57:55.622 +07:00 [INF] Executing host database seed...
+2022-10-22 17:58:02.210 +07:00 [ERR] Failed executing DbCommand (18ms) [Parameters=[@p12='?' (DbType = Guid), @p13='?' (DbType = Guid), @p14='?' (Size = 40), @p15='?' (DbType = DateTime2), @p16='?' (DbType = Guid), @p17='?' (Size = 4000), @p18='?' (DbType = DateTime2), @p19='?' (DbType = Guid), @p20='?' (Size = 128), @p21='?' (DbType = Single), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AppAuthors] ([Id], [AuthorId], [ConcurrencyStamp], [CreationTime], [CreatorId], [ExtraProperties], [LastModificationTime], [LastModifierId], [Name], [Price], [PublishDate], [Type])
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21, @p22, @p23);
+2022-10-22 17:58:02.336 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'acme.Bookstore.EntityFrameworkCore.BookstoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AuthorId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:daa6252a-7a1c-4e1d-a62e-45ccf0bba45b
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AuthorId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:daa6252a-7a1c-4e1d-a62e-45ccf0bba45b
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2022-10-22 18:00:12.445 +07:00 [INF] Started database migrations...
+2022-10-22 18:00:12.465 +07:00 [INF] Migrating schema for host database...
+2022-10-22 18:00:17.065 +07:00 [INF] Executing host database seed...
+2022-10-22 18:00:23.098 +07:00 [ERR] Failed executing DbCommand (18ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (Size = 40), @p3='?' (DbType = DateTime2), @p4='?' (DbType = Guid), @p5='?' (Size = 4000), @p6='?' (DbType = DateTime2), @p7='?' (DbType = Guid), @p8='?' (Size = 128), @p9='?' (DbType = Single), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AppAuthors] ([Id], [AuthorId], [ConcurrencyStamp], [CreationTime], [CreatorId], [ExtraProperties], [LastModificationTime], [LastModifierId], [Name], [Price], [PublishDate], [Type])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2022-10-22 18:00:23.168 +07:00 [ERR] An exception occurred in the database while saving changes for context type 'acme.Bookstore.EntityFrameworkCore.BookstoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AuthorId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d0ee5556-9ed6-47e5-bd92-bc30d66ce313
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'AuthorId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:d0ee5556-9ed6-47e5-bd92-bc30d66ce313
+Error Number:207,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.InsertAsync(TEntity entity, Boolean autoSave, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2022-10-22 18:13:11.521 +07:00 [INF] Started database migrations...
+2022-10-22 18:13:11.536 +07:00 [INF] Migrating schema for host database...
+2022-10-22 18:15:34.185 +07:00 [INF] Started database migrations...
+2022-10-22 18:15:34.202 +07:00 [INF] Migrating schema for host database...
+2022-10-22 18:54:30.649 +07:00 [INF] Started database migrations...
+2022-10-22 18:54:30.664 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:04:11.813 +07:00 [INF] Started database migrations...
+2022-10-22 19:04:11.826 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:05:10.228 +07:00 [INF] Started database migrations...
+2022-10-22 19:05:10.243 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:07:53.533 +07:00 [INF] Started database migrations...
+2022-10-22 19:07:53.548 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:10:00.124 +07:00 [INF] Started database migrations...
+2022-10-22 19:10:00.138 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:10:04.532 +07:00 [INF] Executing host database seed...
+2022-10-22 19:10:15.111 +07:00 [ERR] Failed executing DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [AppAnimals] AS [a]
+2022-10-22 19:10:15.164 +07:00 [ERR] An exception occurred while iterating over the results of a query for context type 'acme.Bookstore.EntityFrameworkCore.BookstoreDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AppAnimals'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:44ede8c5-4bb9-4d84-ae4c-104a01485098
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'AppAnimals'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+ClientConnectionId:44ede8c5-4bb9-4d84-ae4c-104a01485098
+Error Number:208,State:1,Class:16
+2022-10-22 19:11:14.768 +07:00 [INF] Started database migrations...
+2022-10-22 19:11:14.781 +07:00 [INF] Migrating schema for host database...
+2022-10-22 19:11:17.952 +07:00 [INF] Executing host database seed...
+2022-10-22 19:11:31.322 +07:00 [INF] Successfully completed host database migrations.
+2022-10-22 19:11:31.914 +07:00 [INF] Executing TruTran tenant database seed...
+2022-10-22 19:11:36.934 +07:00 [INF] Successfully completed TruTran tenant database migrations.
+2022-10-22 19:11:36.934 +07:00 [INF] Successfully completed all database migrations.
+2022-10-22 19:11:36.934 +07:00 [INF] You can safely end this process...

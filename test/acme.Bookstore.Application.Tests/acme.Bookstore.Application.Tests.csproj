@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>acme.Bookstore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\acme.Bookstore.Application\acme.Bookstore.Application.csproj" />
+    <ProjectReference Include="..\acme.Bookstore.Domain.Tests\acme.Bookstore.Domain.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.11.0" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
